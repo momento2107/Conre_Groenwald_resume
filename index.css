@@ -1,0 +1,107 @@
+#contactMe {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: gradientBG 10s ease infinite;
+    animation: gradientBG 10s ease infinite;
+}
+
+@-webkit-keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.col img {
+    height: 500px;
+    width: 400px;
+}
+
+.floatRight {
+    float: right;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.heading {
+    background-color: white;
+}
+
+.background {
+    background-color: #b3fff0;
+}
+
+#contactMe li {
+    list-style-type: none;
+    text-align: center;
+}
+
+#contactMe a {
+    color: black;
+}
+
+#contactMe h1 {
+    font-size: 75px;
+    font-family: 'Annie Use Your Telescope';
+    text-align: center;
+}
+
+.head {
+    text-align: center;
+    font-family: 'Annie Use Your Telescope';
+}
+
+.head h2 {
+    font-size: 40px;
+}
+
+.head h5 {
+    font-size: 20px;
+}
+
+#lsSkills li {
+    font-family: 'Caveat Brush';
+    font-size: 20px;
+    padding-right: 50px;
+    list-style-type: none;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Caveat Brush';
+    text-align: center;
+}
+
+p {
+    font-family: 'Caveat Brush';
+    font-size: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+}
